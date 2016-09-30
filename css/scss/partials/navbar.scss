@@ -1,0 +1,110 @@
+.nav-psd {
+  height: 109px;
+}
+.navbar-fixed-top {
+   border-bottom-width: 1px;
+}
+.header {
+  width: 100%;
+  height: 109px;
+  margin-top: 42px;
+  font-weight: 400;
+  position: relative;
+  float: left;
+}
+.logo {
+  float: left;
+  width: 143px;
+  height: 26px;
+  margin-left: 40px;
+  margin-right: 33px;
+  color: #3c3d42;
+  line-height:20px;
+  font-family: $global-proxima-bold;
+  font-size: 30px;
+}
+ul.menu {
+  float: left;
+  width: auto;
+  height: 14px;
+  padding: 0;
+  font-family: $global-raleway-regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height:23px;
+  list-style: none;
+}
+.item {
+  display: inline-block;
+}
+.home {
+  color: #3c3d42;
+}
+.features {
+  color: #747a7a;
+  margin-left: 29px;
+}
+.screenshot {
+  color: #747a7a;
+  margin-left: 30px;
+}
+.gallery {
+  color: #747a7a;
+  margin-left: 24px;
+}
+.right-menu {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+.phone-img {
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 15px;
+  height: 14px;
+  color: #3d3e43;
+  font-family: $global-awesome;
+  font-size: 18px;
+  font-weight: 400;
+}
+.number {
+  /* Text style for "800-123-456" */
+  float: left;
+  margin-right: 39px;
+  width: auto;
+  height: 16px;
+  color: #3c3d42;
+  font-family: $global-raleway-regular;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mail-img {
+  float: left;
+  margin-right: 12px;
+  margin-top: 5px;
+  width: 18px;
+  height: 13px;
+  color: #3d3e43;
+  font-family: $global-awesome;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.mail {
+  /* Text style for "smallapps@" */
+  float: left;
+  width: 186px;
+  height: 18px;
+  color: #3c3d42;
+  font-family: $global-raleway-regular;
+  font-size: 18px;
+  font-weight: 400;
+}
+.img-check {
+position: relative;
+  top: -46px;
+  margin-top: 20px;
+}
+

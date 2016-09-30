@@ -1,0 +1,57 @@
+.slider {
+  margin-top: 109px;
+  width: 100%;
+  height: 730px;
+  background: url("/img/hand-mobile.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.perfect-app {
+  top: 181px;
+  position: relative;
+  width: 431px;
+  height: 34px;
+  color: white;
+  font-family: $global-raleway-regular;
+  font-size: 36px;
+  font-weight: 700;
+}
+.duis {
+  position: relative;
+  top: 191px;
+  width: 431px;
+  height: 26px;
+  color: white;
+  font-family: $global-raleway-regular;
+  font-size: 34px;
+  font-weight: 300;
+}
+.donec {
+  top: 237px;
+  position: relative;
+  width: 475px;
+  height: 62px;
+  color: #9dc7d1;
+  font-family: $global-raleway-regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button-slider {
+  /* Style for "button" */
+  position: relative;
+  top: 290px;
+  width: 240px;
+  height: 60px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  background-color: transparent;
+}
+.button-dload {
+  width: 122px;
+  height: 15px;
+  color: white;
+  font-family: $global-raleway-regular;
+  font-size: 21px;
+  font-weight: 700;
+}

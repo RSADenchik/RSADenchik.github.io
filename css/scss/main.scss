@@ -1,0 +1,65 @@
+@import "mixins";
+
+html,
+body {
+  background: #fff;
+}
+button {
+  outline: none;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("/fonts/Proxima Nova/ProximaNova-Bold.otf");
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/fonts/Awesome/FontAwesome.otf");
+}
+@font-face {
+  font-family: "DroidSerif";
+  src: url("/fonts/Droid_Serif/DroidSerif.ttf");
+}
+@font-face {
+  font-family: "Socialico";
+  src: url("/fonts/Socialico/Socialico.otf");
+}
+@font-face {
+  font-family: "slick.woff";
+  src: url("/css/fonts/slick.woff");
+}
+@font-face {
+  font-family: "slick.ttf";
+  src: url("/css/fonts/slick.ttf");
+}
+@font-face {
+  font-family: "slick.eot";
+  src: url("/css/fonts/slick.eot");
+}
+@font-face {
+  font-family: "slick.svg";
+  src: url("/css/fonts/slick.svg");
+}
+
+$global-raleway-regular: "Raleway";
+$global-proxima-bold: "ProximaNova-Bold";
+$global-awesome: "FontAwesome";
+$global-droid-serif: "DroidSerif";
+$global-socialico: "Socialico";
+
+/* Partials project */
+@import "partials/navbar";
+@import "partials/slider";
+@import "partials/features";
+@import "partials/product-feature";
+@import "partials/gallery";
+@import "partials/product-geature";
+@import "partials/testimonials";
+@import "partials/newsletter";
+@import "partials/footer";
+/* Slick-slider  */
+@import "landing/slick";
+@import "landing/slick-theme";

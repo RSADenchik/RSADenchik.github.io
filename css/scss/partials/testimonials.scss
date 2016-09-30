@@ -1,0 +1,66 @@
+.testimonials-blocks {
+
+}
+.testimonials-title {
+  margin: 94px auto 0;
+  width: 445px;
+  height: 34px;
+  color: #636c6c;
+  font-family: $global-raleway-regular;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.carousel-caption {
+  position: static;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators li {
+  /* Style for "dots" */
+  width: 10px;
+  height: 10px;
+  margin-top: 20px;
+  background-color: #8c9494;
+}
+  .carousel-indicators > li.active {
+    background-color: #5dca88;
+
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.carousel-caption {
+  text-align: center;
+}
+.carousel-title {
+  height: 34px;
+  margin: 0 auto 20px;
+  color: #636c6c;
+  font-family: $global-raleway-regular;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.carusel-info {
+  margin: 30px auto 10px;
+  height: 24px;
+  color: #8c9494;
+  font-family: $global-droid-serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+}
+.carusel-autor {
+  /* Text style for "- Ron Burg" */
+  height: 23px;
+  color: #5dca88;
+  font-family: $global-raleway-regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
