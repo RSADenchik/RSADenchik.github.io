@@ -1,21 +1,9 @@
 .newsletter {
-  /* Style for "bg" */
-  width: 100%;
   text-align: center;
   background-color: #f3f5f5;
 }
-.block-letter {
-  width: 600px;
-  margin-top: 50px;
-  text-align: center;
-  display: inline-block;
-
-
 .mail-icon {
-  /* Text style for "" */
-  width: 39px;
-  height: 33px;
-  margin-right: 20px;
+  margin: 30px 20px 0 0;
   color: #8c9494;
   font-family: $global-awesome;
   font-size: 36px;
@@ -23,28 +11,25 @@
   line-height: 24px;
 }
   .subscribe-letter {
-    /* Text style for "Subscribe" */
-    height: 26px;
+    display: inline;
     color: #8c9494;
     font-family: $global-raleway-regular;
     font-size: 36px;
     font-weight: 700;
     line-height: 24px;
   }
+  .form-mail {
+    margin: 35px 0;
+  }
   .your-mail {
-    /* Style for "input-type" */
-    width: 600px;
+    width: 66%;
     height: 60px;
     background-color: white;
     border: 2px solid #bbc3c2;
     border-radius: 50px;
   }
-
-}
 input[placeholder="your mail text"] {
   padding-left: 20px;
-  width: 123px;
-  height: 14px;
   color: #8c9494;
   font-family: $global-raleway-regular;
   font-size: 14px;
@@ -53,17 +38,13 @@ input[placeholder="your mail text"] {
   outline: none;
 }
 .my-btn {
-  position: relative;
-  border-radius: 50px;
   width: 170px;
   height: 60px;
-  background-color: #5dca88;
+  position: absolute;
+  right: 18%;
+  border-radius: 50px;
   outline: none;
-  top: -60px;
-  padding-right: 10px;
-  float: right;
   border: none;
+  background-color: #5dca88;
 }
-button:focus {
-  outline: none;
-}
+
