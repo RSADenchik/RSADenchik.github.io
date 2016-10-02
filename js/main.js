@@ -4,17 +4,17 @@ $(document).ready( function () {
         dots: false,
         variableWidth: false,
         infinite: true,
-        speed: 700,
+        arrows: true,
+        speed: 2000,
         prevArrow: "<img class='arrow arrow-fix slick-prev arrow-left' src='img/arrow-left.png'>",
         nextArrow: "<img class='arrow arrow-fix slick-next arrow-right' src='img/arrow-right.png'>",
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
-
             {
-                breakpoint: 1250,
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             },
@@ -26,11 +26,9 @@ $(document).ready( function () {
                 }
             },
             {
-                breakpoint: 873,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+                breakpoint: 767,
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
 
         ]

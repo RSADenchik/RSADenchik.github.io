@@ -1,6 +1,4 @@
-.slider {
-  margin-top: 109px;
-  width: 100%;
+.mainground {
   height: 730px;
   background: url("/img/hand-mobile.png") no-repeat;
   background-position: center center;
@@ -46,6 +44,9 @@
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 25px;
   background-color: transparent;
+  &:hover {
+    background-color: #5dca88;
+  }
 }
 .button-dload {
   width: 122px;

@@ -1,10 +1,76 @@
 .product-geature {
-  background: url("/img/geature-mobile-bg.png") center center no-repeat;
-  height: 700px;
-  .product-resume {
-    width: 50%;
-    float: right;
-    position: relative;
-    top: 100px;
+  background-color: #f2f9fe;
+}
+.img-geature {
+  float: left;
+  width: 38%;
+}
+.product-resume-geature {
+  width: 50%;
+  float: right;
+}
+  .product-ges1 {
+    width: 80%;
+    padding-top: 20px;
+    color: #5dca88;
+    font-family: $global-raleway-regular;
+    font-size: 36px;
+    font-weight: 700;
+    @media #{$bootstrap-md} {
+      font-size: 2.1em;
+    }
+    @media #{$bootstrap-sm} {
+      font-size: 1.4em;
+    }
+  }
+  .hr-line {
+    width: 104px;
+    height: 2px;
+    background-color: #949c9c;
+  }
+  .product-ges2 {
+    margin: 30px 0 30px;
+    color: #8c9494;
+    font-family: $global-raleway-regular;
+    font-size: 36px;
+    font-weight: 400;
+    @media #{$bootstrap-md} {
+      font-size: 1.6em;
+    }
+    @media #{$bootstrap-sm} {
+      font-size: 1.2em;
+    }
+  }
+  .product-ges3 {
+    width: 80%;
+    color: #8c9494;
+    font-family: $global-raleway-regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    @media #{$bootstrap-sm} {
+      font-size: 0.7em;
+    }
+  }
+.button-geature {
+  /* Style for "button" */
+  margin-top: 40px;
+  width: 240px;
+  height: 60px;
+  border: 3px solid rgba(99, 108, 108, 0.5);
+  border-radius: 25px;
+  background-color: transparent;
+   &:hover {
+     background-color: #5dca88;
+   }
+  @media #{$bootstrap-sm} {
+    margin-top: 0;
+  }
+  .button-learn-more {
+    color: #636c6c;
+    font-family: $global-raleway-regular;
+    font-size: 21px;
+    font-weight: 700;
   }
 }
+

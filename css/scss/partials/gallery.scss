@@ -1,5 +1,5 @@
 .gallery-block {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .gallery-title {
   text-align: center;
@@ -11,8 +11,8 @@
 .gallery-info {
   text-align: center;
   margin: 0 auto;
-  margin-top: 24px;
-  width: 760px;
+  margin-top: 20px;
+  width: 60%;
   color: #afb8b8;
   font-family: $global-raleway-regular;
   font-size: 16px;
@@ -20,45 +20,28 @@
   line-height: 24px;
 }
 .slider-gallery {
-  margin: 84px auto;
-  height: 731px;
-
+  margin: 20px 50px;
   .arrow {
     width: 53px;
     height: 90px;
-    .arrow-fix {
-      width: 53px;
-      height: 90px;
-    }
+  }
+  .slick-prev {
+    left: -60px;
+    top: 40%;
+  }
+  .slick-next {
+    right: -60px;
+    top: 40%;
   }
   .mobile-gallery {
     margin-left: 30px;
     width: 296px;
     display: inline-block;
   }
-  .caption-img {
-    width: 247px;
-    height: 62px;
-    margin: 37px auto;
-    color: #8c9494;
-    font-family: $global-raleway-regular;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-  }
-  .slick-prev {
-    left: -50px;
-    top: 300px;
-  }
-  .slick-next {
-    right: -50px;
-    top: 300px;
-  }
   .mobile-info {
-    margin: 47px auto;
-    width: 255px;
-    height: 62px;
+    margin: 30px auto 0;
+    text-align: center;
+    width: 60%;
     color: #8c9494;
     font-family: $global-raleway-regular;
     font-size: 14px;
@@ -67,8 +50,6 @@
   }
   .img-fix-center {
     margin: 0 auto;
-  }
-  .slick-current {
-    width: 10%;
+    width: 72%;
   }
 }

@@ -1,6 +1,6 @@
 .bg-footer {
   background-color: #2d312f;
-  height: 200px;
+  height: 180px;
 }
 .footer-title {
   padding-top: 20px;
@@ -20,6 +20,7 @@
   font-weight: 400;
   line-height: 60px;
   &:hover {
+    color: #5dca88;
     text-decoration: none;
   }
 }
@@ -41,6 +42,7 @@ a:focus {
 .link-footer-m {
   color: #8c9494;
   &:hover {
+    color: #5dca88;
     text-decoration: none;
   }
 }
