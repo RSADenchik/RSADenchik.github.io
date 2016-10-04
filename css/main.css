@@ -128,7 +128,7 @@ li:hover .info-tabs{color:#636c6c}
 .subscribe-letter{display:inline;font-size:36px;font-weight:700}
 .form-mail{margin:35px 0}
 .your-mail{width:66%;height:60px;background-color:#fff;border:2px solid #bbc3c2;border-radius:50px}
-input[placeholder="your mail text"]{padding-left:20px;font-size:14px;font-weight:400;outline:0}
+input[placeholder="your mail text"]{padding-left:20px;font-size:18px;font-weight:400;outline:0}
 .my-btn{width:170px;height:60px;position:absolute;right:18%;border-radius:50px;outline:0;border:none;background-color:#5dca88}
 .bg-footer{background-color:#2d312f;height:180px}
 .footer-title{padding-top:20px;font-size:24px;font-weight:400}
@@ -180,4 +180,25 @@ a:focus{outline:0}
 .slick-dots li button:focus,.slick-dots li button:hover{outline:0}
 .slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}
 .slick-dots li button:before{position:absolute;top:0;left:0;content:"•";width:20px;height:20px;font-size:6px;line-height:20px;text-align:center;color:#000;opacity:.25}
+.logo-m,.nav>.list-m-items{font-family:ProximaNova-Bold}
 .slick-dots li.slick-active button:before{color:#000;opacity:.75}
+.m-navbar{background-color:#f2f9fe;position:fixed;top:0;right:0;left:0;z-index:1030}
+.navbar-header .m-toggle,.navbar-header .m-toggle:hover{background-color:#40e0d0}
+.navbar-header .collapsed,.navbar-header .collapsed:active,.navbar-header .collapsed:focus{background-color:#e0ffff}
+.logo-m{font-size:20px}
+.search-form{border:none;padding:0}
+.input-group{width:50%;min-width:150px;max-width:200px;outline:0;margin:0 auto}
+.input-group:active{outline:0}
+.input-search{background:#e0ffff}
+.float-sm-fix{float:none}
+.m-search-button{background-color:#87ceeb;display:block;outline:0}
+.m-search-button:focus,.m-search-button:hover{background-color:#40e0d0;outline:0}
+.nav>.list-m-items{text-align:center;width:50%;max-width:172px;margin:0 auto;border-radius:10px}
+.nav>.list-m-items:hover{background-color:#40e0d0}
+@media (min-width:375px){.nav>.list-m-items{width:24%;display:inline-block}
+.nav>.list-m-items:nth-child(3) a{padding:10px 0}
+}
+@media (min-width:768px) and (max-width:991px){.search-form{position:absolute;right:1%}
+.nav>.list-m-items{width:18%}
+.nav>.list-m-items:nth-child(3) a{padding:15px}
+}

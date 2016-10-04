@@ -1,0 +1,91 @@
+.m-navbar {
+  background-color: #f2f9fe;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-header .m-toggle {
+  background-color: Turquoise;
+  &:hover {
+    background-color: Turquoise;
+  }
+}
+.navbar-header .collapsed {
+  background-color: LightCyan;
+  &:active {
+    background-color: LightCyan;
+  }
+  &:focus {
+    background-color: LightCyan;
+  }
+}
+  .logo-m {
+    font-size: 20px;
+    font-family: $global-proxima-bold;
+  }
+.search-form {
+  border: none;
+  padding: 0;
+  @media #{$bootstrap-sm} {
+    position: absolute;
+    right: 1%;
+  }
+}
+.input-group {
+  width: 50%;
+  min-width: 150px;
+  max-width: 200px;
+  outline: 0;
+  margin: 0 auto;
+  &:active {
+    outline: 0;
+  }
+}
+.input-search {
+  background: LightCyan;
+}
+.float-sm-fix {
+  float: none;
+}
+.m-search-button {
+  background-color: SkyBlue;
+  display: block;
+  outline: 0;
+  &:hover {
+    background-color: Turquoise;
+    outline: 0;
+  }
+  &:focus {
+    background-color: Turquoise;
+    outline: 0;
+  }
+}
+  .nav > .list-m-items {
+    text-align: center;
+    font-family: $global-proxima-bold;
+    width: 50%;
+    max-width: 172px;
+    margin: 0 auto;
+    border-radius: 10px;
+    &:hover {
+      background-color: Turquoise;
+    }
+    @media (min-width: 375px) {
+      width: 24%;
+      display: inline-block;
+      &:nth-child(3) a {
+        padding: 10px 0;
+      }
+    }
+    @media #{$bootstrap-sm} {
+      width: 18%;
+      &:nth-child(3) a {
+        padding: 15px 15px;
+      }
+    }
+  }
+
+
+
