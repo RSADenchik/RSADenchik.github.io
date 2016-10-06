@@ -11,10 +11,6 @@ button{outline:0}
 @font-face{font-family:FontAwesome;src:url(/fonts/Awesome/FontAwesome.otf)}
 @font-face{font-family:DroidSerif;src:url(/fonts/Droid_Serif/DroidSerif.ttf)}
 @font-face{font-family:Socialico;src:url(/fonts/Socialico/Socialico.otf)}
-@font-face{font-family:"slick.woff";src:url(/css/fonts/slick.woff)}
-@font-face{font-family:"slick.ttf";src:url(/css/fonts/slick.ttf)}
-@font-face{font-family:"slick.eot";src:url(/css/fonts/slick.eot)}
-@font-face{font-family:"slick.svg";src:url(/css/fonts/slick.svg)}
 .nav-psd{height:80px}
 .navbar-fixed-top{border-bottom-width:1px;-webkit-transform:translate3d(0,0,0)}
 .header{width:100%;height:50px;padding-top:30px;font-weight:400;position:relative}
@@ -198,7 +194,7 @@ input[placeholder="your mail text"]{padding-left:20px;font-size:18px;font-weight
 .my-btn{width:200px;height:60px;position:absolute;right:18%;border-radius:50px;outline:0;border:none;background-color:#5dca88}
 @media (max-width:767px){.subscribe-letter{font-size:16px}
 .mail-icon{font-size:26px}
-.your-mail{display:block;margin:0 auto;width:80%;max-width:400px}
+.your-mail{display:block;margin:0 auto;width:80%;max-width:200px}
 .my-btn{position:static;margin-top:20px}
 }
 .bg-footer{background-color:#2d312f;height:200px}
@@ -233,7 +229,7 @@ a:focus{outline:0}
 .slick-arrow.slick-hidden{display:none}
 .slick-dots,.slick-next,.slick-prev{position:absolute;display:block;padding:0}
 .slick-loading .slick-list{background:url(ajax-loader.gif) center center no-repeat #fff}
-@font-face{font-family:slick;src:url(/css/fontscss/fonts/slick.eot);src:url(/css/fontscss/fonts/slick.eot?#iefix) format("embedded-opentype"),url(/css/fontscss/fonts/slick.woff) format("woff"),url(/css/fontscss/fonts/slick.ttf) format("truetype"),url(/css/fontscss/fonts/slick.svg#slick) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:slick;src:url(/css/fonts/slick.eot);src:url(/css/fonts/slick.eot?#iefix) format("embedded-opentype"),url(/css/fonts/slick.woff) format("woff"),url(/css/fonts/slick.ttf) format("truetype"),url(/css/fonts/slick.svg#slick) format("svg");font-weight:400;font-style:normal}
 .slick-next,.slick-prev{height:20px;width:20px;line-height:0;font-size:0;cursor:pointer;background:0 0;color:transparent;top:50%;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);border:none;outline:0}
 .slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{outline:0;background:0 0;color:transparent}
 .slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}

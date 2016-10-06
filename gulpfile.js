@@ -6,7 +6,9 @@ var gulp          = require('gulp'),
     autowatch     = require('gulp-autowatch'),
     plumber       = require('gulp-plumber'),
     uglify        = require('gulp-uglify');
-
+    concat        = require('gulp-concat');
+    csso          = require('gulp-csso');
+    imagemin      = require('gulp-imagemin');
 
 // HTML
 
@@ -53,6 +55,13 @@ gulp.task('watch', function(cb) {
     return cb();
 });
 
+// IMAGE
+
+gulp.task('images', function() {
+    gulp.src('img/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('img/'));
+});
 // LIVERELOAD 
 
 gulp.task('connect', function() {
