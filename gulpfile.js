@@ -34,8 +34,8 @@ gulp.task('styles', function() {
  // JS
 gulp.task('js', function() {
     gulp.src([
-        'js/partials/bootstrap.min.js',
         'js/partials/jquery-2.0.0.min.js',
+        'js/partials/bootstrap.min.js',
         'js/partials/slick.js',
         'js/partials/main.js'
     ])
