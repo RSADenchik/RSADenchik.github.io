@@ -47,4 +47,12 @@ input[placeholder="your mail text"] {
   border: none;
   background-color: #5dca88;
 }
+@media #{$bootstrap-xs} {
+  .subscribe-letter {
+    font-size: 16px;
+  }
+  .mail-icon {
+    font-size: 26px;
+  }
+}
 

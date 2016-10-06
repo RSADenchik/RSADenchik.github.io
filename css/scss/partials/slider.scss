@@ -4,11 +4,10 @@
   background-position: center center;
   background-size: cover;
 }
+
 .perfect-app {
-  top: 181px;
+  margin-top: 150px;
   position: relative;
-  width: 431px;
-  height: 34px;
   color: white;
   font-family: $global-raleway-regular;
   font-size: 36px;
@@ -16,19 +15,15 @@
 }
 .duis {
   position: relative;
-  top: 191px;
-  width: 431px;
-  height: 26px;
+  width: 100%;
   color: white;
   font-family: $global-raleway-regular;
   font-size: 34px;
   font-weight: 300;
 }
 .donec {
-  top: 237px;
   position: relative;
-  width: 475px;
-  height: 62px;
+  width: 300px;
   color: #9dc7d1;
   font-family: $global-raleway-regular;
   font-size: 14px;
@@ -38,7 +33,6 @@
 .button-slider {
   /* Style for "button" */
   position: relative;
-  top: 290px;
   width: 240px;
   height: 60px;
   border: 3px solid rgba(255, 255, 255, 0.5);
@@ -49,10 +43,38 @@
   }
 }
 .button-dload {
-  width: 122px;
-  height: 15px;
   color: white;
   font-family: $global-raleway-regular;
   font-size: 21px;
   font-weight: 700;
+}
+ /*  Mobile CSS  */
+@media #{$bootstrap-xs} {
+  .perfect-app {
+  margin-top: 25vh;
+    font-size: 16px;
+    text-align: center;
+  }
+  .mainground-block {
+    text-align: center;
+  }
+  .duis {
+    font-size: 15px;
+    text-align: center;
+  }
+  .donec {
+    font-size: 13px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .button-slider {
+    width: 70%;
+    max-width: 240px;
+    margin: 15px auto 0;
+  }
+  .button-dload {
+    font-size: 16px;
+  }
 }

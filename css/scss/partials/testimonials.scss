@@ -14,7 +14,7 @@
   font-size: 36px;
   font-weight: 700;
 }
-.carusel-info {
+.carousel-info {
   margin: 20px auto 10px;
   color: #8c9494;
   font-family: $global-droid-serif;
@@ -22,7 +22,7 @@
   font-style: italic;
   line-height: 24px;
 }
-.carusel-autor {
+.carousel-autor {
   color: #5dca88;
   font-family: $global-raleway-regular;
   font-size: 16px;
@@ -41,4 +41,18 @@
   height: 15px;
   background-color: #5dca88;
   }
+@media #{$bootstrap-xs} {
+  .carousel-caption {
+    padding-top: 10px;
+  }
+  .carousel-title {
+    font-size: 16px;
+  }
+  .carousel-info {
+  font-size: 14px;
+  }
+  .carousel-autor {
+    font-size: 14px;
+  }
+}
 

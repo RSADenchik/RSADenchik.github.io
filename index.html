@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand logo-m" href="#"></a>
-                    <form class="navbar-form search-form" role="search">
+                    <form class="navbar-form search-form hidden-xs hidden-sm" role="search">
                         <div class="input-group">
                             <input type="text" class="form-control input-search" placeholder="Пошук...">
                             <span class="input-group-btn fix-on-focus">
@@ -118,7 +118,7 @@
                                 <li class="active">
                                     <a data-toggle="tab" href="#menu">
                                         <i class="fa fa-heart-o icons" aria-hidden="true"></i>
-                                        <div class="text-fix">
+                                        <div class="text-fix hidden-xs">
                                             <p class="info-tabs">Heading title one</p>
                                         </div>
                                     </a>
@@ -126,7 +126,7 @@
                                 <li>
                                     <a data-toggle="tab" href="#menu1">
                                         <i class="fa fa-briefcase icons" aria-hidden="true"></i>
-                                        <div class="text-fix">
+                                        <div class="text-fix hidden-xs">
                                             <p class="info-tabs">Heading title one</p>
                                         </div>
                                     </a>
@@ -134,7 +134,7 @@
                                 <li>
                                     <a data-toggle="tab" href="#menu2">
                                         <i class="fa fa-leaf icons" aria-hidden="true"></i>
-                                        <div class="text-fix">
+                                        <div class="text-fix hidden-xs">
                                             <p class="info-tabs">Heading title one</p>
                                         </div>
                                     </a>
@@ -142,15 +142,15 @@
                                 <li>
                                     <a data-toggle="tab" href="#menu3">
                                         <i class="fa fa-thumbs-up icons" aria-hidden="true"></i>
-                                        <div class="text-fix">
-                                            <p class="info-tabs">Heading title one</p>
+                                        <div class="text-fix hidden-xs">
+                                            <p class="info-tabs hidden-xs">Heading title one</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a data-toggle="tab" href="#menu4">
                                         <i class="fa fa-umbrella icons" aria-hidden="true"></i>
-                                        <div class="text-fix">
+                                        <div class="text-fix hidden-xs">
                                             <p class="info-tabs">Heading title one</p>
                                         </div>
                                     </a>
@@ -158,12 +158,12 @@
                             </ul>
                             <div class="tab-content">
                                 <div id="menu" class="tab-pane fade in active">
-                                    <i class="fa fa-heart-o big-icons" aria-hidden="true"></i>
+                                    <i class="fa fa-heart-o big-icons hidden-xs" aria-hidden="true"></i>
                                     <h3 class="title-content">Mobile First!</h3>
                                     <p class="info-content">Bootstrap</p>
                                 </div>
                                 <div id="menu1" class="tab-pane fade">
-                                    <i class="fa fa-briefcase big-icons" aria-hidden="true"></i>
+                                    <i class="fa fa-briefcase big-icons hidden-xs" aria-hidden="true"></i>
                                     <h3 class="title-content">Heading Feature title goes here</h3>
                                     <p class="info-content">Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis.
                                             Ut sit amet mi ac neque sodales facilisis.
@@ -173,17 +173,17 @@
                                     </p>
                                 </div>
                                 <div id="menu2" class="tab-pane fade">
-                                    <i class="fa fa-leaf big-icons" aria-hidden="true"></i>
+                                    <i class="fa fa-leaf big-icons hidden-xs" aria-hidden="true"></i>
                                     <h3 class="title-content">Progressive Enchantment</h3>
                                     <p class="info-content">Some content in menu 2.</p>
                                 </div>
                                 <div id="menu3" class="tab-pane fade">
-                                    <i class="fa fa-thumbs-up big-icons" aria-hidden="true"></i>
+                                    <i class="fa fa-thumbs-up big-icons hidden-xs" aria-hidden="true"></i>
                                     <h3 class="title-content">JavaScript</h3>
                                     <p class="info-content">Some content.</p>
                                 </div>
                                 <div id="menu4" class="tab-pane fade">
-                                    <i class="fa fa-umbrella big-icons" aria-hidden="true"></i>
+                                    <i class="fa fa-umbrella big-icons hidden-xs" aria-hidden="true"></i>
                                     <h3 class="title-content">Heading Feature title goes here</h3>
                                     <p class="info-content">Some content.</p>
                                 </div>
@@ -200,6 +200,7 @@
                         <div class="product-resume">
                             <p class="product-res1">Onec ultrices ultricies tellus perfect screens here</p>
                             <div class="hr-line"></div>
+                            <img class="img-feature-mobile visible-xs" src="img/product-mobile.png" alt="mobile-phone">
                             <p class="product-res2">Duis bibendum diam non erat facilisis tincidunt.</p>
                             <p class="product-res3">Duis bibendum diam non erat facilaisis tincidunt.
                                                     Fusce leo neque, lacinia at tempor vitae, porta at arcu.
@@ -210,7 +211,7 @@
                                 <span class="button-learn-more">LEARN MORE</span>
                             </button>
                         </div>
-                        <img class="img-feature-mobile" src="img/product-mobile.png" alt="mobile-phone">
+                        <img class="img-feature-mobile hidden-xs" src="img/product-mobile.png" alt="mobile-phone">
                     </div>
             </div>
                 </div>
@@ -275,10 +276,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="img-geature" src="img/geature-mobile.png">
+                        <img class="img-geature hidden-xs" src="img/geature-mobile.png">
                         <div class="product-resume-geature">
                             <p class="product-ges1">Onec ultrices ultricies tellus perfect screens here</p>
-                            <div class="hr-line"></div>
+                            <div class="hr-line1"></div>
+                            <div class="img-geature">
+                                <img class="img-geature visible-xs" src="img/geature-mobile.png">
+                            </div>
                             <p class="product-ges2">Duis bibendum diam non erat facilisis tincidunt.</p>
                             <p class="product-ges3">Duis bibendum diam non erat facilaisis tincidunt.
                                                     Fusce leo neque, lacinia at tempor vitae, porta at arcu.
@@ -304,32 +308,32 @@
                                     <div class="carousel-caption">
                                         <h3 class="carousel-title">What people say about us</h3>
                                         <img src="/img/autor-like.png">
-                                        <p class="carusel-info">“ It’s official – I love this app, I couldn’t be without it now.”</p>
-                                        <p class="carusel-autor">-Ron Burgundy</p>
+                                        <p class="carousel-info">“ It’s official – I love this app, I couldn’t be without it now.”</p>
+                                        <p class="carousel-autor">-Ron Burgundy</p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="carousel-caption">
                                         <h3 class="carousel-title">What people say</h3>
                                         <img src="/img/autor-like.png">
-                                        <p class="carusel-info">The atmosphere in Chania has a touch of Florence and Venice.</p>
-                                        <p class="carusel-autor">-Ron Burgundy</p>
+                                        <p class="carousel-info">The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                        <p class="carousel-autor">-Ron Burgundy</p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="carousel-caption">
                                         <h3 class="carousel-title">What people</h3>
                                         <img src="/img/autor-like.png"  width="100" height="100">
-                                        <p class="carusel-info">“It’s official – I love this app, I couldn’t be without it now.”</p>
-                                        <p class="carusel-autor">-Ron Burgundy</p>
+                                        <p class="carousel-info">“It’s official – I love this app, I couldn’t be without it now.”</p>
+                                        <p class="carousel-autor">-Ron Burgundy</p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="carousel-caption">
                                         <h3 class="carousel-title">What people say about</h3>
                                         <img src="/img/autor-like.png"  width="100" height="100">
-                                        <p class="carusel-info">“ It’s official – I love this app, I couldn’t be without it now.”</p>
-                                        <p class="carusel-autor">-Ron Burgundy</p>
+                                        <p class="carousel-info">“ It’s official – I love this app, I couldn’t be without it now.”</p>
+                                        <p class="carousel-autor">-Ron Burgundy</p>
                                     </div>
                                 </div>
                             </div>

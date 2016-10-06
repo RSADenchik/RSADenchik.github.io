@@ -75,3 +75,80 @@
   width: 28%;
   float: left;
 }
+@media #{$bootstrap-xs} {
+  .product-resume {
+  width: 100%;
+  margin: 0 auto;
+    text-align: center;
+  }
+  .product-res1 {
+    width: 84%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .hr-line {
+    margin: 5px auto 0;
+  }
+  .product-res2 {
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  .product-res3 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .button-feature {
+    width: 70%;
+    max-width: 200px;
+    margin: 15px auto 10px;
+  }
+  .button-feature .button-learn-more {
+    font-size: 16px;
+  }
+  .img-feature-mobile {
+    margin: 0 auto;
+    position: relative;
+    left: -5px;
+    float: none;
+  }
+}
+@media #{$bootstrap-iphone5-xs} {
+  .img-feature-mobile {
+    float: right;
+    position: relative;
+    top: -33px;
+    width: 24%;
+  }
+  .product-resume {
+  }
+  .product-res1 {
+    width: 70%;
+    margin-left: 0;
+  }
+  .hr-line {
+    margin-left: 28%;
+    margin-top: 10px;
+  }
+  .product-res2 {
+    width: 70%;
+    margin-left: 0;
+  }
+  .product-res3 {
+    width: 72%;
+    margin-left: 0;
+  }
+  .button-feature {
+    margin-left: -5%;
+    width: 30%;
+  }
+  .button-feature .button-learn-more {
+    font-size: 15px;
+  }
+}

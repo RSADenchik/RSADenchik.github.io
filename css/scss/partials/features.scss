@@ -1,5 +1,7 @@
-
-.features-block .feature-title {
+.features-block {
+  padding-bottom: 15px;
+}
+.feature-title {
   text-align: center;
   margin-top: 30px;
   color: #636c6c;
@@ -7,7 +9,7 @@
   font-size: 36px;
   font-weight: 700;
 }
-.features-block .features-head {
+.features-head {
   width: 70%;
   margin: 20px auto 0;
   text-align: center;
@@ -19,9 +21,8 @@
 }
 /*  CSS Tab bar*/
 
-.features-block .tab-bar {
+.tab-bar {
   width: 100%;
-  height: 600px;
   margin-top: 20px;
 }
 .nav-tabs {
@@ -104,4 +105,60 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+ /* CSS Mobile */
+@media #{$bootstrap-xs} {
+  .feature-title {
+    font-size: 16px;
+  }
+  .features-head {
+    font-size: 14px;
+  }
+  .tab-bar {
+    margin: 0 auto;
+  }
+  .nav-tabs {
+    padding-left: 0;
+    width: 100%;
+    border: none;
+  }
+  .nav > li > a {
+    padding: 10px 0;
+  }
+  .nav-tabs li {
+    width: 20%;
+    text-align: center;
+  }
+  .nav-tabs li a {
+    width: 100%;
+    border-right: none;
+  }
+
+  .nav-tabs > li.active > a {
+    border-right: none;
+    border-bottom: 11px solid #5dca88;
+    &:hover {
+      border-right: none;
+      border-bottom: 11px solid #5dca88;
+    }
+  }
+  .nav-tabs li a .icons {
+    margin: 0 auto;
+    float: none;
+    font-size: 38px;
+  }
+  .tab-content {
+    width: 100%;
+    margin-top: 0;
+  }
+  .title-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .tab-pane .info-content {
+    font-size: 14px;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
 }

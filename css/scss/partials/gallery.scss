@@ -53,3 +53,35 @@
     width: 72%;
   }
 }
+@media #{$bootstrap-xs} {
+  .gallery-block {
+  margin-top: 0;
+}
+  .gallery-title {
+    font-size: 16px;
+  }
+  .gallery-info {
+    margin: 10px auto 0;
+    width: 90%;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+  }
+  .slider-gallery .img-fix-center {
+    width: 25%;
+  }
+  .slider-gallery .mobile-info {
+    margin: 15px auto 0;
+    width: 80%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media #{$bootstrap-iphone5-xs} {
+  .slider-gallery .img-fix-center {
+    width: 20%;
+  }
+  .slider-gallery .mobile-info {
+    width: 70%;
+  }
+}
