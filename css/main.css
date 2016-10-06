@@ -73,7 +73,7 @@ li:hover .info-tabs{color:#636c6c}
 .nav>li>a{padding:10px 0}
 .nav-tabs li{width:20%;text-align:center}
 .nav-tabs li a{width:100%;border-right:none}
-.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover{border-right:none;border-bottom:11px solid #5dca88}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{border-right:none;border-bottom:11px solid #5dca88}
 .nav-tabs li a .icons{margin:0 auto;float:none;font-size:38px}
 .tab-content{width:100%;margin-top:0}
 .title-content{font-size:16px;margin-bottom:10px}
@@ -107,7 +107,7 @@ li:hover .info-tabs{color:#636c6c}
 .product-res1{width:84%;font-size:16px;padding-top:25px}
 .hr-line{margin:5px auto 0}
 .product-res2{width:70%;text-align:center;margin:10px auto;font-size:14px}
-.product-res3{width:80%;margin:0 auto;text-align:center;font-size:12px;line-height:20px}
+.product-res3{width:80%;margin:0 auto;text-align:left;font-size:12px;line-height:20px}
 .button-feature{width:70%;max-width:200px;margin:15px auto 10px}
 .button-feature .button-learn-more{font-size:16px}
 .img-feature-mobile{margin:0 auto;position:relative;left:-5px;float:none}
@@ -195,11 +195,13 @@ li:hover .info-tabs{color:#636c6c}
 .form-mail{margin:35px 0}
 .your-mail{width:66%;height:60px;background-color:#fff;border:2px solid #bbc3c2;border-radius:50px}
 input[placeholder="your mail text"]{padding-left:20px;font-size:18px;font-weight:400;outline:0}
-.my-btn{width:170px;height:60px;position:absolute;right:18%;border-radius:50px;outline:0;border:none;background-color:#5dca88}
+.my-btn{width:200px;height:60px;position:absolute;right:18%;border-radius:50px;outline:0;border:none;background-color:#5dca88}
 @media (max-width:767px){.subscribe-letter{font-size:16px}
 .mail-icon{font-size:26px}
+.your-mail{display:block;margin:0 auto;width:80%;max-width:400px}
+.my-btn{position:static;margin-top:20px}
 }
-.bg-footer{background-color:#2d312f;height:180px}
+.bg-footer{background-color:#2d312f;height:200px}
 .footer-title{padding-top:20px;font-size:24px;font-weight:400}
 .block-icon{padding-top:15px}
 .social-icon{color:#5d6461;font-family:Socialico;font-size:60px;font-weight:400;line-height:60px}
@@ -211,6 +213,8 @@ a:focus{outline:0}
 .slick-list,.slick-slider,.slick-track{position:relative;display:block}
 .link-footer-m{color:#8c9494}
 .link-footer-m:hover{color:#5dca88}
+@media (max-width:767px){.footer-title{font-size:16px}
+}
 .slick-slider{box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
 .slick-list{overflow:hidden;margin:0;padding:0}
 .slick-list:focus{outline:0}

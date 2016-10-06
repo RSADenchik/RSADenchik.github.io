@@ -5,7 +5,7 @@ $(document).ready( function () {
         variableWidth: false,
         infinite: true,
         arrows: true,
-        speed: 2000,
+        speed: 1500,
         prevArrow: "<img class='arrow arrow-fix slick-prev arrow-left' src='img/arrow-left.png'>",
         nextArrow: "<img class='arrow arrow-fix slick-next arrow-right' src='img/arrow-right.png'>",
         slidesToShow: 3,

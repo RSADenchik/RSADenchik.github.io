@@ -38,7 +38,7 @@ input[placeholder="your mail text"] {
   outline: none;
 }
 .my-btn {
-  width: 170px;
+  width: 200px;
   height: 60px;
   position: absolute;
   right: 18%;
@@ -53,6 +53,16 @@ input[placeholder="your mail text"] {
   }
   .mail-icon {
     font-size: 26px;
+  }
+  .your-mail {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+  }
+  .my-btn {
+    position: static;
+    margin-top: 20px;
   }
 }
 

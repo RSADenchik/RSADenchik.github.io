@@ -1,6 +1,6 @@
 .bg-footer {
   background-color: #2d312f;
-  height: 180px;
+  height: 200px;
 }
 .footer-title {
   padding-top: 20px;
@@ -44,5 +44,10 @@ a:focus {
   &:hover {
     color: #5dca88;
     text-decoration: none;
+  }
+}
+@media #{$bootstrap-xs} {
+  .footer-title {
+    font-size: 16px;
   }
 }

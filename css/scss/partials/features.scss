@@ -141,6 +141,10 @@
       border-right: none;
       border-bottom: 11px solid #5dca88;
     }
+    &:focus {
+      border-right: none;
+      border-bottom: 11px solid #5dca88;
+    }
   }
   .nav-tabs li a .icons {
     margin: 0 auto;
