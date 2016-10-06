@@ -25,11 +25,25 @@ gulp.task('styles', function() {
         .pipe(plumber())
         .pipe(sass())
         //.pipe(prefix([{  browsers: ['IE 8', 'IE 9', 'last 5 versions', 'Firefox 14', 'Opera 11.1']  }]))
-        .pipe(minifyCSS({keepBreaks: true}))
+        // .pipe(minifyCSS({keepBreaks: true}))
+        .pipe(csso())
         .pipe(gulp.dest('css'))
         .pipe(connect.reload());
 });
 
+ // JS
+gulp.task('js', function() {
+    gulp.src([
+        'js/partials/bootstrap.min.js',
+        'js/partials/jquery-2.0.0.min.js',
+        'js/partials/slick.js',
+        'js/partials/main.js'
+    ])
+        .pipe(concat('main.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('js/'));
+
+});
 // gulp.task('basicshopStyles', function() {
 //   return gulp.src('css/less/basicShop.less')
 //     .pipe(plumber())
@@ -40,8 +54,6 @@ gulp.task('styles', function() {
 //     .pipe(connect.reload());
 // });
 
-// JS
-
 // WATCH
 
 var paths = {
@@ -49,6 +61,7 @@ var paths = {
     // basicshopStyles: 'ccs/less/basicShop/*.less',
     styles:         'css/scss/**/*.scss'
 };
+
 
 gulp.task('watch', function(cb) {
     autowatch(gulp, paths);
