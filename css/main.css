@@ -272,6 +272,6 @@ a:focus{outline:0}
 .nav>.list-m-items:nth-child(3) a{padding:10px 0}
 }
 @media (min-width:768px) and (max-width:991px){.search-form{position:absolute;right:1%}
-.nav>.list-m-items{width:18%}
+.nav>.list-m-items{width:21%}
 .nav>.list-m-items:nth-child(3) a{padding:15px}
 }
