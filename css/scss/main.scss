@@ -1,6 +1,6 @@
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "settings/font-awesome/font-awesome.scss";
-@import "mixins";
+@import "settings/mixins";
 
 
 html,
@@ -66,8 +66,8 @@ $global-socialico: "Socialico";
 @import "partials/newsletter";
 @import "partials/footer";
 /* Slick-slider  */
-@import "landing/slick";
-@import "landing/slick-theme";
+@import "settings/slick/slick";
+@import "settings/slick/slick-theme";
 
 /*  Mobile partials   */
 @import "landing/m-navbar";
